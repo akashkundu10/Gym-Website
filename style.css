@@ -1,0 +1,25 @@
+body {
+    background: #0d0d0d;
+    color: white;
+}
+
+.hero {
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438") center/cover no-repeat;
+}
+
+.plan {
+    padding: 25px;
+    background: #1a1a1a;
+    border-radius: 10px;
+}
+
+.plan.premium {
+    background: #222;
+    border: 2px solid #0af;
+}
+
+.plan.elite {
+    background: #222;
+    border: 2px solid red;
+}
